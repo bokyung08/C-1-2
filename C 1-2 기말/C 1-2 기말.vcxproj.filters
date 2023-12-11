@@ -297,5 +297,14 @@
     <ClCompile Include="8-13.c">
       <Filter>소스 파일\08</Filter>
     </ClCompile>
+    <ClCompile Include="13-3.c">
+      <Filter>소스 파일\13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-4.c">
+      <Filter>소스 파일\13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
