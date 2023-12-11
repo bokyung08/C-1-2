@@ -3,7 +3,7 @@
 struct position {
 	int x;
 	int y;
-};
+};//4+4니까 더블
 int main() {
 	struct position* ptr = (struct position*)malloc(sizeof(double));
 	ptr->x = 10;

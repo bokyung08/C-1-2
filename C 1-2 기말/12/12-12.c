@@ -8,7 +8,7 @@ int main() {
 	struct position* ptr;
 	ptr = &pos;
 	printf("%d\t %d\n",(*ptr).x, (*ptr).y);
-	printf("%d \t %d\n", ptr->x, ptr->y);
+	printf("%d \t %d\n", ptr->x, ptr->y);//ㅇㅇ 그러니까 약간 &대신에 -> 쓴다는 말인듫?
 
 	return 0;
 

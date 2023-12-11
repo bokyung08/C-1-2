@@ -6,7 +6,7 @@ int main(void) {
 	int arr4[4] = { [1] = 2 };
 	printf("\tarr1\tarr2\tarr3\tarr4\n");
 	for (int i = 0;i < 4;i++) {
-		printf("[%d]\t%3d\t%3d\t%3d\t%3d \n",
+		printf("[%d]\t%3d\t%3d\t%3d\t%3d \n",//3-> 공백 채우는 용도
 			i, arr1[i], arr2[i], arr3[i], arr4[i]);
 	}
 	return 0;
