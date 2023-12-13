@@ -1,7 +1,7 @@
 /*#include <stdio.h>
 #include <string.h>
 int main() {
-	char password[8];//password선언(근데 늘 쓰레기값
+	char password[8];//password선언(근데 늘 쓰레기값c초기화를해줘야댐!!!!!!!!!
 	char str[8];//password 입력받을 변수
 	printf("input your password: ");
 	scanf("%s", &str);

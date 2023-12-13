@@ -182,6 +182,7 @@
     <ClCompile Include="7\7-18.c" />
     <ClCompile Include="7\7-19.c" />
     <ClCompile Include="7\7-3.1.c" />
+    <ClCompile Include="7\7-3.2.c" />
     <ClCompile Include="7\7-7.c" />
     <ClCompile Include="7\7-1.c" />
     <ClCompile Include="7\7-2.c" />
@@ -192,6 +193,7 @@
     <ClCompile Include="7\7-8.c" />
     <ClCompile Include="7\7-9.c" />
     <ClCompile Include="7\7-16.c" />
+    <ClCompile Include="daily practice.c" />
     <ClCompile Include="8\8-1.c" />
     <ClCompile Include="8\8-10.c" />
     <ClCompile Include="8\8-11.c" />

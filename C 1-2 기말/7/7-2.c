@@ -18,3 +18,10 @@ int main() {
 	printf("avg: %lf", avg);
 	return 0;
 }*/
+/*#include <stdio.h>
+int main() {
+	int arr[4];
+	for (int i = 0;i < 4;i++) {
+		printf("%d", arr[i]);
+	}
+}*/
