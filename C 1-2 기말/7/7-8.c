@@ -4,7 +4,7 @@ int main() {
 	double real = 3.141582;
 	char str[] = "Hello";
 	int* ptr1;// 포인터 선언
-	ptr1 = &num;//*ptr=num?
+	ptr1 = &num;//*ptr=&num ptr이 num 주소값 갖는다는 뜻인듯
 	double* ptr2;//형식에 맞춰서 선언
 	ptr2 = &real;
 	char* ptr3;

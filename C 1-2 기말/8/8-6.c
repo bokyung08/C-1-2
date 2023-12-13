@@ -1,7 +1,13 @@
 /*#include <stdio.h>
 int main(int argc,  char *argv[]) {
-	printf("input arguments: %d", argc);
-	for (int i = 0;i < argc;i++) {
-		printf("argv[%d]: %s\n", i, argv[i]);
+	if (argc<2){
+	printf("usage: %s file name\n",argv[0]);
+	return 1;
 	}
+	FILE *fp=fopen (argv[1],"r");
+	int c;
+	while((c=fgetc(fp))!=EOF){
+	putchar(c);
+	}
+	return 0;
 }*/

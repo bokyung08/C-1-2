@@ -1,10 +1,15 @@
 /*
 #include<stdio.h>
 void copyarr(int dst[4], int src[4]) {
-	for (int i = 0;i < 4;i++) {
+	for (int i = 0;i < sizeof(dst)/4 ;i++) {
 		dst[i] = src[i];
 	}
 }
+/*
+void copyarr2(int *dst,int *src){
+for ( int i =0;i <4;i++){
+	dst[i]=src[i];
+}///copyarr=copyarr2
 int main() {
 	int source[4] = { 10,20,30,40 };
 	int target[4];

@@ -10,3 +10,13 @@ int main() {
 	printf("%X\n", *qtr);//i의 주소
 	printf("%X\n", **qtr);//i참조
 }*/
+/*#include <stdio.h>
+int main() {
+	int i = 10;
+	int* ptr = &i;
+	int** qtr = ptr;//이건 걍 qtr이랑 ptr이랑 같대
+	printf("%X\n", *ptr);
+	printf("%X\n", *qtr);//qtr==ptr==&i
+	printf("%X\n", i);
+	//ㅇㅏ %X로 출력해서 A나오는듯 원래는 10 나오는게 맞음
+}*/

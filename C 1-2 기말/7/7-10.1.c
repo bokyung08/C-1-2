@@ -7,5 +7,5 @@ int main() {
 	printf("%X\n", qtr);//i참조
 	qtr = 0xAABB;
 	printf("%X\n", qtr);
-	printf("%X\n", *qtr);//참조해올 값이 없음
+	printf("%X\n", *qtr);//참조해올 값이 없음 컴파일에러는 아니고 걍 음 출력이 안됨
 }*/
