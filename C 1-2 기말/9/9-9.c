@@ -10,7 +10,7 @@ int sumN(int SIZE, ...) {   //int SIZE->읽어올 개수
 	}
 	va_end(argptr);//가변인자 끝낼 때 사용
 	return ret;
-};
+}
 int main() {
 	int a = 10;
 	int b = 20;

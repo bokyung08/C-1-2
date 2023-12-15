@@ -40,7 +40,7 @@ int main() {
     }
 
 
-    if (sq((matrix))){
+    if (sq(matrix)){
         printf("True\n");//마방진이면 true
     }
     else {
